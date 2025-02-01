@@ -9,6 +9,7 @@ describe('Verify the Buzz module', () => {
     cy.get('[href="/web/index.php/buzz/viewBuzz"]').click()
     cy.get('textarea[style="height: 30px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"]').type('how are you')
     cy.get('button[type="submit"]').click()
+    cy.log('i am vijay')
 
   })
 })
