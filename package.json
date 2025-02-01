@@ -1,0 +1,25 @@
+{
+  "name": "vijay-learncypress",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runpiminchrome": "npx cypress run --spec cypress/e2e/pim/**.cy.js --browser=chrome",
+    "runAdmininfirefox": "npx cypress run --spec cypress/e2e/admin/**.cy.js --browser=firefox",
+    "runpiminedge": "npx cypress run --spec cypress/e2e/pim/**.cy.js --browser=edge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.0.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "xpath": "^0.0.34"
+  }
+}
